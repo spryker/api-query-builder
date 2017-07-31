@@ -21,12 +21,14 @@ use Propel\Runtime\Map\TableMap;
 use Spryker\Zed\ApiQueryBuilder\Persistence\ApiQueryBuilderQueryContainer;
 
 /**
+ * Auto-generated group annotations
  * @group Functional
  * @group Spryker
  * @group Zed
  * @group ApiQueryBuilder
  * @group Persistence
  * @group QueryContainerTest
+ * Add your own group annotations below this line
  */
 class QueryContainerTest extends Unit
 {

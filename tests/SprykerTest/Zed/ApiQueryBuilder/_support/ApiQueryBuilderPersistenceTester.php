@@ -1,5 +1,5 @@
 <?php
-namespace ApiQueryBuilder;
+namespace SprykerTest\Zed\ApiQuiryBuilder;
 
 use Codeception\Actor;
 
@@ -14,13 +14,17 @@ use Codeception\Actor;
  * @method void am($role)
  * @method void lookForwardTo($achieveValue)
  * @method void comment($description)
- * @method \Codeception\Lib\Friend haveFriend($name, $actorClass = null)
+ * @method \Codeception\Lib\Friend haveFriend($name, $actorClass = NULL)
  *
  * @SuppressWarnings(PHPMD)
  */
-class FunctionalTester extends Actor
+class ApiQueryBuilderPersistenceTester extends Actor
 {
 
-    use _generated\FunctionalTesterActions;
+    use _generated\ApiQueryBuilderPersistenceTesterActions;
+
+   /**
+    * Define custom actions here
+    */
 
 }
