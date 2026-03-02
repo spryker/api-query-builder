@@ -1,4 +1,4 @@
-namespace: SprykerTest\Zed\ApiQuiryBuilder
+namespace: SprykerTest\Zed\ApiQueryBuilder
 
 paths:
     tests: .

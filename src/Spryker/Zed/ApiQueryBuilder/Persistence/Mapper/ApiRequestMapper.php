@@ -32,10 +32,6 @@ class ApiRequestMapper implements ApiRequestMapperInterface
      */
     protected $queryContainer;
 
-    /**
-     * @param \Spryker\Zed\ApiQueryBuilder\Dependency\QueryContainer\ApiQueryBuilderToPropelQueryBuilderInterface $propelQueryBuilderQueryContainer
-     * @param \Spryker\Zed\ApiQueryBuilder\Persistence\ApiQueryBuilderQueryContainerInterface $queryContainer
-     */
     public function __construct(
         ApiQueryBuilderToPropelQueryBuilderInterface $propelQueryBuilderQueryContainer,
         ApiQueryBuilderQueryContainerInterface $queryContainer

@@ -13,12 +13,6 @@ use Propel\Runtime\ActiveQuery\ModelCriteria;
 
 interface ApiQueryBuilderToPropelQueryBuilderInterface
 {
-    /**
-     * @param \Propel\Runtime\ActiveQuery\ModelCriteria $query
-     * @param \Generated\Shared\Transfer\PropelQueryBuilderCriteriaTransfer $criteriaTransfer
-     *
-     * @return \Propel\Runtime\ActiveQuery\ModelCriteria
-     */
     public function createQuery(ModelCriteria $query, PropelQueryBuilderCriteriaTransfer $criteriaTransfer): ModelCriteria;
 
     /**

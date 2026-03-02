@@ -37,9 +37,6 @@ class QueryContainerTest extends Unit
      */
     protected $apiQueryBuilderQueryContainer;
 
-    /**
-     * @return void
-     */
     protected function setUp(): void
     {
         parent::setUp();
@@ -47,9 +44,6 @@ class QueryContainerTest extends Unit
         $this->apiQueryBuilderQueryContainer = new ApiQueryBuilderQueryContainer();
     }
 
-    /**
-     * @return void
-     */
     public function testBuildQueryFromRequest(): void
     {
         $apiFilter = new ApiFilterTransfer();
@@ -70,9 +64,6 @@ class QueryContainerTest extends Unit
         $this->assertInstanceOf(ModelCriteria::class, $query);
     }
 
-    /**
-     * @return void
-     */
     public function testToPropelQueryBuilderCriteria(): void
     {
         $apiFilter = new ApiFilterTransfer();
@@ -91,9 +82,6 @@ class QueryContainerTest extends Unit
         $this->assertInstanceOf(PropelQueryBuilderCriteriaTransfer::class, $criteriaTransfer);
     }
 
-    /**
-     * @return \Generated\Shared\Transfer\PropelQueryBuilderColumnSelectionTransfer
-     */
     protected function getColumnSelectionTransfer(): PropelQueryBuilderColumnSelectionTransfer
     {
         $columnSelectionTransfer = new PropelQueryBuilderColumnSelectionTransfer();
